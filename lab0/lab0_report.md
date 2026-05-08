@@ -81,7 +81,7 @@ Switched to a new branch 'develop'
 ```bash
 $ git add README.md .gitignore CONTRIBUTING.md LICENSE lab0 lab1 lab2 lab3 coursework docs
 $ git commit -m "Initial project setup"
-[main 06946df] Initial project setup
+[main dc5b1e6] Initial project setup
 $ git push -u origin main
 ```
 
@@ -90,7 +90,7 @@ $ git push -u origin main
 ```bash
 $ git add README.md CONTRIBUTING.md
 $ git commit -m "lab0: develop branch + DevOps plan"
-[develop 5586f29] lab0: develop branch + DevOps plan
+[develop 8f6d2da] lab0: develop branch + DevOps plan
  2 files changed, 19 insertions(+)
 
 $ git push -u origin develop
@@ -109,14 +109,14 @@ PR №1: <https://github.com/Iangalin/2025_2026-introduction-in-web-tech-U4255-y
 
 ### 10. Merge
 
-В UI PR нажата **Merge pull request** → **Confirm merge**. Создан merge-commit `0221df0`. Скриншот: [`screenshots/pr-merged.png`](screenshots/pr-merged.png).
+В UI PR нажата **Merge pull request** → **Confirm merge**. Создан merge-commit `9d7c8fb`. Скриншот: [`screenshots/pr-merged.png`](screenshots/pr-merged.png).
 
 ```bash
 $ git checkout main
 $ git pull
 From github.com:Iangalin/2025_2026-introduction-in-web-tech-U4255-yangalin_i_a
-   06946df..0221df0  main       -> origin/main
-Updating 06946df..0221df0
+   dc5b1e6..9d7c8fb  main       -> origin/main
+Updating dc5b1e6..9d7c8fb
 Fast-forward
  CONTRIBUTING.md |  7 +++++++
  README.md       | 12 ++++++++++++
@@ -129,9 +129,9 @@ Fast-forward
 
 ```bash
 $ git log --oneline --decorate
-0221df0 (HEAD -> main, origin/main, origin/HEAD) Merge pull request #1 from Iangalin/develop
-5586f29 lab0: develop branch + DevOps plan
-06946df Initial project setup
+9d7c8fb (HEAD -> main, origin/main, origin/HEAD) Merge pull request #1 from Iangalin/develop
+8f6d2da lab0: develop branch + DevOps plan
+dc5b1e6 Initial project setup
 
 $ git branch -a
 * main
