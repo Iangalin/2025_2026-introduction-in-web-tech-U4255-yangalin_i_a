@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE                COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+9adc0cd5ade6   prom/node-exporter   "/bin/node_exporter …"   3 seconds ago   Up 3 seconds   0.0.0.0:9100->9100/tcp, [::]:9100->9100/tcp   node-exporter

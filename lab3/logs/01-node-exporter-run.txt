@@ -1,0 +1,14 @@
+Unable to find image 'prom/node-exporter:latest' locally
+latest: Pulling from prom/node-exporter
+b7e1cbd24667: Pulling fs layer
+9f1abecdd7b7: Pulling fs layer
+c2caafd5aa9a: Pulling fs layer
+9f1abecdd7b7: Download complete
+c2caafd5aa9a: Download complete
+9f1abecdd7b7: Pull complete
+c2caafd5aa9a: Pull complete
+b7e1cbd24667: Download complete
+b7e1cbd24667: Pull complete
+Digest: sha256:e9cff4fc67b1818f8c97adb115b9f12c9a54b533de86765d4a0effc01b357205
+Status: Downloaded newer image for prom/node-exporter:latest
+9adc0cd5ade60188c25b8107bc3b0cb14e3bb332915bc245c0b43a5f3435136d

@@ -1,0 +1,42 @@
+Unable to find image 'grafana/grafana:latest' locally
+latest: Pulling from grafana/grafana
+3449f11ca67f: Pulling fs layer
+4033b033c846: Pulling fs layer
+12f7a646e727: Pulling fs layer
+d8ad8cd72600: Pulling fs layer
+3a23815d2f20: Pulling fs layer
+9635a9919892: Pulling fs layer
+c75992737b30: Pulling fs layer
+3616d2fa29d1: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+2f86a53b0f50: Pulling fs layer
+127a6397a27b: Pulling fs layer
+bafe7427a3f8: Pulling fs layer
+c75992737b30: Download complete
+2f86a53b0f50: Download complete
+9635a9919892: Download complete
+127a6397a27b: Download complete
+3616d2fa29d1: Download complete
+12f7a646e727: Download complete
+d8ad8cd72600: Download complete
+d8ad8cd72600: Pull complete
+4f4fb700ef54: Download complete
+9635a9919892: Pull complete
+3449f11ca67f: Download complete
+2f86a53b0f50: Pull complete
+127a6397a27b: Pull complete
+4f4fb700ef54: Pull complete
+3449f11ca67f: Pull complete
+3a23815d2f20: Download complete
+4033b033c846: Download complete
+bafe7427a3f8: Download complete
+bafe7427a3f8: Pull complete
+12f7a646e727: Pull complete
+4033b033c846: Pull complete
+c75992737b30: Pull complete
+3616d2fa29d1: Pull complete
+3a23815d2f20: Pull complete
+Digest: sha256:0f86bada30d65ef9d0183b90c1e2682ac92d53d95da8bed322b984ea78a4a73a
+Status: Downloaded newer image for grafana/grafana:latest
+25c8287de14923d927816b751a20b4df744742ac1eecf86ca0d6acde9165d2d3
