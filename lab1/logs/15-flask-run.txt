@@ -1,0 +1,28 @@
+a8e3335a76ccf19346dcbd527f369c9ba5d6909c55d8386be603b39334b1b3fc
+docker: Error response from daemon: ports are not available: exposing port TCP 0.0.0.0:5000 -> 127.0.0.1:0: listen tcp 0.0.0.0:5000: bind: address already in use
+
+Run 'docker run --help' for more information
+
+=== curl http://localhost:5000 ===
+
+=== docker ps ===
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+=== Port 5000 занят, используем 5001 ===
+15242bf7fa7079ff90486001f722333d34c2c5a98fb520727fe34ce5cebc57d3
+
+=== curl http://localhost:5001 ===
+Hello from Docker!
+=== docker ps ===
+CONTAINER ID   IMAGE          COMMAND           CREATED         STATUS         PORTS                                         NAMES
+15242bf7fa70   my-flask-app   "python app.py"   2 seconds ago   Up 2 seconds   0.0.0.0:5001->5000/tcp, [::]:5001->5000/tcp   flask-container
+
+=== docker logs flask-container ===
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:5000/ (Press CTRL+C to quit)
+151.101.0.223 - - [05/May/2026 20:46:42] "GET / HTTP/1.1" 200 -

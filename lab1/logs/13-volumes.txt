@@ -1,0 +1,22 @@
+=== docker volume create my-volume ===
+my-volume
+
+=== docker run -d -v my-volume:/data ubuntu sleep 3600 ===
+d8a5229305dc12d99b1aaec82bfbe9d40a21bf1011fb6cfbf2c28cbe11071d35
+
+=== docker exec volume-test bash -c "echo Hello from volume > /data/test.txt && ls /data && cat /data/test.txt" ===
+test.txt
+Hello from volume
+
+=== docker rm -f volume-test ===
+volume-test
+
+=== docker run -d --name volume-test2 -v my-volume:/data ubuntu sleep 3600 ===
+aec40ea708a4860a4e46c0f036c331f2331e225d7931058a7ec84b89d2d5f63b
+
+=== docker exec volume-test2 cat /data/test.txt ===
+Hello from volume
+
+=== Cleanup volume-test2 ===
+volume-test2
+my-volume

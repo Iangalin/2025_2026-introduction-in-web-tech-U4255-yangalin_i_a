@@ -1,0 +1,20 @@
+Client:
+ Version:    29.4.1
+ Context:    desktop-linux
+ Debug Mode: false
+ Plugins:
+  agent: Docker AI Agent Runner (Docker Inc.)
+    Version:  v1.44.0
+    Path:     /Users/iangalinislam/.docker/cli-plugins/docker-agent
+  ai: Docker AI Agent - Ask Gordon (Docker Inc.)
+    Version:  v1.20.2
+    Path:     /Users/iangalinislam/.docker/cli-plugins/docker-ai
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.33.0-desktop.1
+    Path:     /Users/iangalinislam/.docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.1.3
+    Path:     /Users/iangalinislam/.docker/cli-plugins/docker-compose
+  debug: Get a shell into any image or container (Docker Inc.)
+    Version:  0.0.47
+    Path:     /Users/iangalinislam/.docker/cli-plugins/docker-debug

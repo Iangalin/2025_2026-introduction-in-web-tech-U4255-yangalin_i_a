@@ -1,0 +1,26 @@
+=== docker ps ===
+CONTAINER ID   IMAGE          COMMAND                  CREATED              STATUS              PORTS                                     NAMES
+c5cff3cf7ad6   nginx:alpine   "/docker-entrypoint.…"   About a minute ago   Up About a minute   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web-server
+
+=== docker ps -a ===
+CONTAINER ID   IMAGE          COMMAND                  CREATED              STATUS              PORTS                                     NAMES
+c5cff3cf7ad6   nginx:alpine   "/docker-entrypoint.…"   About a minute ago   Up About a minute   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web-server
+
+=== docker stop web-server ===
+web-server
+
+=== docker ps -a (после stop) ===
+CONTAINER ID   IMAGE          COMMAND                  CREATED              STATUS                              PORTS     NAMES
+c5cff3cf7ad6   nginx:alpine   "/docker-entrypoint.…"   About a minute ago   Exited (0) Less than a second ago             web-server
+
+=== docker start web-server ===
+web-server
+
+=== docker stop web-server ===
+web-server
+
+=== docker rm web-server ===
+web-server
+=== docker rmi nginx:alpine ===
+Untagged: nginx:alpine
+Deleted: sha256:5616878291a2eed594aee8db4dade5878cf7edcb475e59193904b198d9b830de
