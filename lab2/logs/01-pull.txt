@@ -1,0 +1,35 @@
+latest: Pulling from gamarjobs/my-flask-app
+e37ad7e17d2c: Pulling fs layer
+46f68a18e515: Pulling fs layer
+ca3756c0f75b: Pulling fs layer
+bcab99058145: Pulling fs layer
+b3ec39b36ae8: Pulling fs layer
+0237a18237af: Pulling fs layer
+fc7443084902: Pulling fs layer
+2858d5169a24: Pulling fs layer
+38513bd72563: Pulling fs layer
+ea56f685404a: Pulling fs layer
+e37ad7e17d2c: Download complete
+bcab99058145: Download complete
+ca3756c0f75b: Download complete
+0237a18237af: Download complete
+ea56f685404a: Download complete
+18a0b887ac85: Download complete
+b3ec39b36ae8: Download complete
+2858d5169a24: Download complete
+fc7443084902: Download complete
+38513bd72563: Download complete
+b3ec39b36ae8: Pull complete
+38513bd72563: Pull complete
+ca3756c0f75b: Pull complete
+ea56f685404a: Pull complete
+fc7443084902: Pull complete
+46f68a18e515: Download complete
+bcab99058145: Pull complete
+46f68a18e515: Pull complete
+e37ad7e17d2c: Pull complete
+0237a18237af: Pull complete
+2858d5169a24: Pull complete
+Digest: sha256:8d450f6ef379b31f467049d9c1d183b4ee92240db9e984bee6e4b4cdecbb471c
+Status: Downloaded newer image for gamarjobs/my-flask-app:latest
+docker.io/gamarjobs/my-flask-app:latest
