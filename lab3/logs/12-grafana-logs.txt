@@ -1,0 +1,10 @@
+logger=plugin.backgroundinstaller t=2026-05-06T08:31:12.454103958Z level=info msg="Plugin successfully installed" pluginId=grafana-metricsdrilldown-app version= duration=1.049590584s
+logger=plugin.backgroundinstaller t=2026-05-06T08:31:12.653334959Z level=info msg="Installing plugin" pluginId=elasticsearch version=
+logger=plugin.installer t=2026-05-06T08:31:12.892301875Z level=info msg="Updating plugin" pluginId=elasticsearch from=12.5.4 to=12.6.1
+logger=plugin.elasticsearch t=2026-05-06T08:31:12.897485167Z level=info msg="plugin process exited" plugin=/usr/share/grafana/data/plugins-bundled/elasticsearch/gpx_grafana_elasticsearch_datasource_linux_arm64 id=27
+logger=plugin.backgroundinstaller t=2026-05-06T08:31:12.897804125Z level=error msg="Failed to install plugin" pluginId=elasticsearch version= error="unlinkat /usr/share/grafana/data/plugins-bundled/elasticsearch/plugin.json: permission denied"
+logger=plugin.backgroundinstaller t=2026-05-06T08:31:12.897839084Z level=info msg="Installing plugin" pluginId=grafana-lokiexplore-app version=
+logger=plugin.installer t=2026-05-06T08:31:14.85245696Z level=info msg="Installing plugin" pluginId=grafana-lokiexplore-app version=
+logger=installer.fs t=2026-05-06T08:31:14.961567585Z level=info msg="Downloaded and extracted grafana-lokiexplore-app v2.0.4 zip successfully to /var/lib/grafana/plugins/grafana-lokiexplore-app"
+logger=plugins.registration t=2026-05-06T08:31:14.974744585Z level=info msg="Plugin registered" pluginId=grafana-lokiexplore-app
+logger=plugin.backgroundinstaller t=2026-05-06T08:31:14.974760418Z level=info msg="Plugin successfully installed" pluginId=grafana-lokiexplore-app version= duration=2.076917501s

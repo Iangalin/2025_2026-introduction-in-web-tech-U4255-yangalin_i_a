@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE             COMMAND     CREATED          STATUS          PORTS                                         NAMES
+25c8287de149   grafana/grafana   "/run.sh"   13 seconds ago   Up 12 seconds   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   grafana

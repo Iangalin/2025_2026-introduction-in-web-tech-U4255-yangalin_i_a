@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS         PORTS                                         NAMES
+9437680edaff   prom/prometheus   "/bin/prometheus --c…"   10 seconds ago   Up 5 seconds   0.0.0.0:9090->9090/tcp, [::]:9090->9090/tcp   prometheus

@@ -1,0 +1,15 @@
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=softnet
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=stat
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=tapestats
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=textfile
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=thermal_zone
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=time
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=timex
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=udp_queues
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=uname
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=vmstat
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=watchdog
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=xfs
+time=2026-05-06T08:27:55.567Z level=INFO source=node_exporter.go:142 msg=zfs
+time=2026-05-06T08:27:55.569Z level=INFO source=tls_config.go:354 msg="Listening on" address=[::]:9100
+time=2026-05-06T08:27:55.569Z level=INFO source=tls_config.go:357 msg="TLS is disabled." http2=false address=[::]:9100

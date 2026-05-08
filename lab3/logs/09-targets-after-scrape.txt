@@ -1,0 +1,2 @@
+node-exporter -> up | ok
+prometheus -> up | ok

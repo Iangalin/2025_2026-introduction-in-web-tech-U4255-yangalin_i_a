@@ -1,0 +1,4 @@
+NAMES           STATUS          PORTS
+grafana         Up 19 seconds   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp
+prometheus      Up 2 minutes    0.0.0.0:9090->9090/tcp, [::]:9090->9090/tcp
+node-exporter   Up 3 minutes    0.0.0.0:9100->9100/tcp, [::]:9100->9100/tcp

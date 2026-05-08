@@ -1,0 +1,9 @@
+{
+    "folderUid": "",
+    "id": 2806327263055872,
+    "slug": "lab3-host-metrics",
+    "status": "success",
+    "uid": "03028e85-b6c8-43a1-ab08-85682db46907",
+    "url": "/d/03028e85-b6c8-43a1-ab08-85682db46907/lab3-host-metrics",
+    "version": 1
+}
